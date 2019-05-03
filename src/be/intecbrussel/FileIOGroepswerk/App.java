@@ -90,27 +90,7 @@ public class App {
                 }
             }
         }
-
-    /*public static void makeDirectories(){
-        new File("C:\\Users\\maart\\IdeaProjects\\File_IO\\src\\recourse_sorted\\jpg").mkdirs();
-        new File("C:\\Users\\maart\\IdeaProjects\\File_IO\\src\\recourse_sorted\\exe").mkdirs();
-        new File("C:\\Users\\maart\\IdeaProjects\\File_IO\\src\\recourse_sorted\\zip").mkdirs();
-        new File("C:\\Users\\maart\\IdeaProjects\\File_IO\\src\\recourse_sorted\\csv").mkdirs();
-        new File("C:\\Users\\maart\\IdeaProjects\\File_IO\\src\\recourse_sorted\\gif").mkdirs();
-        new File("C:\\Users\\maart\\IdeaProjects\\File_IO\\src\\recourse_sorted\\database").mkdirs();
-        new File("C:\\Users\\maart\\IdeaProjects\\File_IO\\src\\recourse_sorted\\gitignore").mkdirs();
-        new File("C:\\Users\\maart\\IdeaProjects\\File_IO\\src\\recourse_sorted\\json").mkdirs();
-        new File("C:\\Users\\maart\\IdeaProjects\\File_IO\\src\\recourse_sorted\\hidden").mkdirs();
-        new File("C:\\Users\\maart\\IdeaProjects\\File_IO\\src\\recourse_sorted\\pdf").mkdirs();
-        new File("C:\\Users\\maart\\IdeaProjects\\File_IO\\src\\recourse_sorted\\png").mkdirs();
-        new File("C:\\Users\\maart\\IdeaProjects\\File_IO\\src\\recourse_sorted\\py").mkdirs();
-        new File("C:\\Users\\maart\\IdeaProjects\\File_IO\\src\\recourse_sorted\\summary").mkdirs();
-        new File("C:\\Users\\maart\\IdeaProjects\\File_IO\\src\\recourse_sorted\\txt").mkdirs();
-        new File("C:\\Users\\maart\\IdeaProjects\\File_IO\\src\\recourse_sorted\\wma").mkdirs();
-    }
-
-    public static void sortFiles(){*/
-
+        
     }
 
 }
