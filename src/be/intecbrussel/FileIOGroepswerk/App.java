@@ -1,21 +1,34 @@
 package be.intecbrussel.FileIOGroepswerk;
 
 
-import java.io.*;
+import java.io.File;
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+//TODO: Ik denk dat het beter zou zijn geweest om een util klasse te maken
+// en je main beter in een andere klasse.
+// Dit zou ervoor zorgen dat je deze code gemakkelijk voor andere zaken kan gebruiken dan alleen deze opdracht.
+
+//TODO: Ik heb een .gitignore gemaakt met daarin de nodige excludes voor user/project specific files.
+// Deze zal de getrackte files niet hiden. Maar dan hebben jullie een template voor het volgende project.
 
 public class App {
     public static void main(String[] args) {
         try {
-            File unsorted = new File("C:/data/unsorted_folder");
-            File sorted = new File("C:/data/sorted_folder");
+            File unsorted = new File("C:/data/unsorted");
+            File sorted = new File("C:/data/sorted");
             List<File> files = new ArrayList<>();
 
             toList(unsorted, files);
-            Set extentionSet = hashSetFiles(files);
+            //TODO: Ik heb hier het type gedefiniëerd van je Set,
+            // probeer hierop te letten kan anders voor problemen zorgen.
+            Set<String> extentionSet = hashSetFiles(files);
             createFoldersByExtention(extentionSet, sorted, files);
 
 
@@ -27,6 +40,8 @@ public class App {
 
     }
 
+    //TODO: Probeer de methode in kleinere stukken te verdelen,
+    // deze heeft een te hoge complexiteit wat onderhoud ervan moeilijker zal maken.
     private static void writeSummary(List<File> files, File sorted) throws IOException {
         try {
 
@@ -36,10 +51,15 @@ public class App {
 
             for (File file : files) {
                 extentions.add(getFileExtention(file));
-                extentions.add("hidden");
+                //TODO: Deze String word op 4 plaatsen gebruikt probeer hardcoded String literals te vermijden.
+                // Maak er een variable van die je waar nodig kan gebruiken.
+
+                extentions.add("hidden");  //TODO: Je kan deze beter naar de forloop zetten.
 
 
             }
+
+            //TODO: Probeer erop te letten wanneer je code in je repo stored, dat er geen dead code meer aanwezig is.
             /*bf.write("        name    |       readable    |       writeable    |");
             bf.write("\n");
             for (String ext : extentions) {
@@ -61,6 +81,7 @@ public class App {
             summary.add(String.format("%-52s%5s%10s%5s%10s%5s%10s%5s", "name", "|", "readable", "|", "writeable",
                     "|", "hidden", "|"));
 
+            //TODO: s zou beter extention noemen. zorgt voor iets meer duidelijkheid in je code.
             for (String s : extentions) {
                 summary.add("\n");
                 summary.add(s + ":");
@@ -74,6 +95,8 @@ public class App {
                 }
             }
 
+            //TODO: Path summaryPath = Paths.get(sorted + "/summary.txt")
+            // kan refactoring en onderhoud makkelijker maken.
             if (!Paths.get(sorted + "/summary.txt").toFile().exists()) {
                 Files.createFile(Paths.get(sorted + "/summary.txt"));
             }
@@ -87,10 +110,20 @@ public class App {
 
 
     //aanmaken van de nodige mappen op basis van de extentions hashset, copy de files naar de juist map
+    //TODO: Je gaat hier in je methode de IOException opvangen,
+    // dus er is geen nood meer om throws IOException in je methode signatuur te vermelden.
     private static void createFoldersByExtention(Set<String> extentionSet, File sorted, List<File> files) throws IOException {
+
+        //TODO: Ik zou van directory een Path object gemaakt hebben,
+        // Hierdoor kan je in onderstaand code onder andere gebruik maken van de resolve methode.
+        // Er wordt voorrang gegeven aan de klasse Path bij het gebruik in nieuwe Java code.
+        // Indien nodig kan je het Path object omzetten naar een File object.
         String directory = sorted.getAbsolutePath();
 
+        //TODO: Indien je directory een Path object was:
+//        Path directory = sorted.toPath();
         for (String s : extentionSet) {
+            //TODO: Heeft hetzelfde effect als onderstaande if: Files.createDirectories(directory);
             if (!new File(directory + "/" + s).exists()) {
                 new File(directory + "/" + s).mkdir();
             }
@@ -99,8 +132,12 @@ public class App {
         try {
 
             for (File file : files) {
+
+                //TODO: Hier kon:
+//                Path destination = directory.resolve(getFileExtention(file)).resolve(file.getName());
                 Path destination = Paths.get(directory + "/" + getFileExtention(file) + "/" + file.getName());
                 if (!file.isHidden()) {
+                    //TODO: !destination.toFile().exists() kon in onderstaande if statement toegevoegd worden.
                     if (getFileExtention(file) != null) {
                         if (!destination.toFile().exists()) {
                             Files.copy(Paths.get(file.getAbsolutePath()), destination);
@@ -108,11 +145,11 @@ public class App {
 
                     }
                 } else {
-
+                    //TODO: ook een mogelijkheid !Files.exists(destination)
                     if (!destination.toFile().exists()) {
                         new File(directory + "/hidden").mkdir();
                         Files.copy(Paths.get(file.getAbsolutePath()), Paths.get(directory + "/" + "hidden" + "/" + file.getName()));
-                    }else{
+                    } else {
                         Files.copy(Paths.get(file.getAbsolutePath()), Paths.get(directory + "/" + "hidden" + "/" + file.getName()));
                     }
                 }
@@ -126,9 +163,11 @@ public class App {
     }
 
     //alle soorten extentions in een hashset steken zodat er geen mappen dubbel kunnen worden aangemaakt op basis van de extention
-    private static Set hashSetFiles(List<File> files) {
+    //TODO: Slim gebruik van een HashSet
+    private static Set<String> hashSetFiles(List<File> files) {
         Set<String> hashset = new HashSet<>();
         for (File f : files) {
+            //TODO: een nullcheck op deze plaats kan nooit kwaad.
             hashset.add(getFileExtention(f));
         }
         return hashset;
@@ -141,6 +180,7 @@ public class App {
 
             if (unsorted != null && unsorted.exists()) {
                 String name = unsorted.getName();
+                //TODO: In dit geval kan je beter de lastIndexOf(char c) implementatie gebruiken voor sneller resultaat.
                 extention = name.substring(name.lastIndexOf(".") + 1);
             }
         } catch (Exception e) {
@@ -150,8 +190,10 @@ public class App {
     }
 
     //files is een list weergeven
+    //TODO: Mooi gebruik recursive method.
     private static void toList(File unsorted, List<File> files) {
         if (!unsorted.isDirectory()) {
+            //TODO: Probeer hier specifieker te zijn naar je feedback.
             System.out.println("No files found");
 
         } else {

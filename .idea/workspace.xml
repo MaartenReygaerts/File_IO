@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89ce9526-0eae-40f0-8cd9-f76f6ea8100f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/File_IO/META-INF/File_IO.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/File_IO/be/intecbrussel/FileIOGroepswerk/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/File_IO/be/intecbrussel/FileIOGroepswerk/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/FileIOGroepswerk/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/FileIOGroepswerk/App.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/FileIOGroepswerk/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="111" column="36" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="36" />
+            <state relative-caret-position="2002">
+              <caret line="125" column="99" lean-forward="true" selection-start-line="125" selection-start-column="64" selection-end-line="125" selection-end-column="99" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,6 +44,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>il</find>
+      <find>hidden</find>
+      <find>hidd</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -57,10 +62,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="840" />
-    <option name="y" value="465" />
-    <option name="width" value="1939" />
-    <option name="height" value="1059" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -68,21 +73,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="File_IO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="File_IO" type="462c0819:PsiDirectoryNode" />
+              <item name="Maarten_Ozlem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maarten_Ozlem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="File_IO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="File_IO" type="462c0819:PsiDirectoryNode" />
+              <item name="Maarten_Ozlem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maarten_Ozlem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="File_IO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="File_IO" type="462c0819:PsiDirectoryNode" />
+              <item name="Maarten_Ozlem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maarten_Ozlem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="FileIOGroepswerk" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -91,11 +97,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558018331511" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -161,23 +169,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556796116764</updated>
+      <workItem from="1557924447651" duration="4287000" />
+      <workItem from="1557930332832" duration="818000" />
+      <workItem from="1558018152145" duration="357000" />
+      <workItem from="1558087348175" duration="188000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.111409396" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14832215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31087288" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30893117" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2678161" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -186,6 +202,9 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32941177" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="SonarLint" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -194,7 +213,11 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -203,35 +226,29 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/FileIOGroepswerk/FileSortExtention.java" />
     <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/FileIOGroepswerk/FileUtils.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/sun/nio/fs/WindowsFileCopy.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/sun/nio/fs/WindowsFileSystemProvider.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/nio/file/Files.java" />
+    <entry file="file://$PROJECT_DIR$/summary.txt" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="452" column="18" selection-start-line="452" selection-start-column="18" selection-end-line="452" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/nio/file/Path.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="377" column="9" selection-start-line="377" selection-start-column="9" selection-end-line="377" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/FileIOGroepswerk/Test.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/sun/nio/fs/WindowsFileCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/sun/nio/fs/WindowsFileSystemProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="278" column="24" selection-start-line="278" selection-start-column="24" selection-end-line="278" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/nio/file/Files.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="1293" column="21" selection-start-line="1293" selection-start-column="21" selection-end-line="1293" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summary.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/be/intecbrussel/FileIOGroepswerk/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="111" column="36" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="36" />
+        <state relative-caret-position="2002">
+          <caret line="125" column="99" lean-forward="true" selection-start-line="125" selection-start-column="64" selection-end-line="125" selection-end-column="99" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

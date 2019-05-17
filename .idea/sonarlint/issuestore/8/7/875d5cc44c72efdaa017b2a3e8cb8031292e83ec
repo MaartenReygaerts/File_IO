@@ -1,0 +1,38 @@
+
+Psquid:S1135{"2Complete the task associated to this TODO comment.(õÃŞÃ8È™İŞ«-
+ksquid:S1192d"MDefine a constant instead of duplicating this literal "/summary.txt" 3 times.(æ¹ÀÙ8”‡¼Ü«-
+Isquid:S1075"&Remove this hard-coded path-delimiter.(Èõ›‡ÿÿÿÿÿ8æ‡¸Ş«-
+Qsquid:S1135ˆ"2Complete the task associated to this TODO comment.(È›ğƒ8½·âŞ«-
+osquid:CommentedOutCodeLine‰"<This block of commented-out lines of code should be removed.(’åéñÿÿÿÿÿ8ßÓçŞ«-
+nsquid:S3027¸"JPut single-quotes around '.' to use the faster "lastIndexOf(char)" method.(Ú”ß¿ûÿÿÿÿ8È™İŞ«-
+nsquid:CommentedOutCodeLine?"<This block of commented-out lines of code should be removed.(Àƒ¾ˆüÿÿÿÿ8”‡¼Ü«-
+Usquid:S1135q"2Complete the task associated to this TODO comment.(×ÔÎøÿÿÿÿ8Ú‡’Ş«-
+Usquid:S1135+"2Complete the task associated to this TODO comment.(¨Ï¸úÿÿÿÿ8ÁŒÎİ«-
+Usquid:S11356"2Complete the task associated to this TODO comment.(’ÚÇÆøÿÿÿÿ8îöØİ«-
+Psquid:S1135u"2Complete the task associated to this TODO comment.(…·à8¹Ú½Ş«-
+Psquid:S1135¦"2Complete the task associated to this TODO comment.(‡ë¡b8ŸÖùŞ«-
+Qsquid:S1135·"2Complete the task associated to this TODO comment.(ÊÀ£ƒ8÷•ß«-
+_squid:S1075"ARefactor your code to get this URI from a customizable parameter.(Êµş¿8”‡¼Ü«-
+Usquid:S1135T"2Complete the task associated to this TODO comment.(ŞÍúéÿÿÿÿÿ8¸óıİ«-
+^squid:S1075"ARefactor your code to get this URI from a customizable parameter.(é”f8”‡¼Ü«-
+Esquid:S1075€"&Remove this hard-coded path-delimiter.(Ú™·Ø8È™İŞ«-
+Osquid:S11359"2Complete the task associated to this TODO comment.(À×åC8¥ÉŸß«-
+Psquid:S1135>"2Complete the task associated to this TODO comment.(à¤ÆÏ8æ‘Ğİ«-
+Vsquid:S1135”"2Complete the task associated to this TODO comment.(–×ššüÿÿÿÿ8¸¸ôŞ«-
+Psquid:S1135"2Complete the task associated to this TODO comment.(ğòÎÙ8šÉ§ß«-
+Qsquid:S1135Œ"2Complete the task associated to this TODO comment.(ùÁš×8™íŞ«-
+Vsquid:S1135Ä"2Complete the task associated to this TODO comment.(äåï“ûÿÿÿÿ8”Ù¸ß«-
+fsquid:S2259Š"BA "NullPointerException" could be thrown; "file" is nullable here.(ÇÙ€Ûûÿÿÿÿ8È™İŞ«-
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µï—ÿ8”‡¼Ü«-
+Usquid:S1135~"2Complete the task associated to this TODO comment.(õšø‚ûÿÿÿÿ8ë«„‰¬-
+Vsquid:S1135ª"2Complete the task associated to this TODO comment.(™¼Øêûÿÿÿÿ8ˆÒüŞ«-
+Psquid:S1135"2Complete the task associated to this TODO comment.(«ûæ«8«÷µß«-
+Psquid:S1135b"2Complete the task associated to this TODO comment.(¿Ô»ˆ8ËªŞ«-
+usquid:S3776s"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Ëù’üÿÿÿÿ8”‡¼Ü«-
+dsquid:S11929"GDefine a constant instead of duplicating this literal "hidden" 4 times.(À×åC8”‡¼Ü«-
+nsquid:CommentedOutCodeLine|"<This block of commented-out lines of code should be removed.(ªîÑøøÿÿÿÿ8¸É‚‰¬-
+nsquid:CommentedOutCodeLine~"<This block of commented-out lines of code should be removed.(õšø‚ûÿÿÿÿ8ë«„‰¬-
+Usquid:S1135"2Complete the task associated to this TODO comment.(Æ—©úÿÿÿÿ8—ã¾Ü«-
+psquid:S3776-"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(ËÕ¥Ÿ8”‡¼Ü«-
+Ssquid:S1066"/Merge this if statement with the enclosing one.(ÇŠ›Şıÿÿÿÿ8È™İŞ«-
+Vsquid:S1135Á"2Complete the task associated to this TODO comment.(ò´‚ùùÿÿÿÿ8Üë²ß«-
